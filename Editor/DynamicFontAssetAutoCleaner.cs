@@ -11,7 +11,10 @@ using System;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
+
+#if UNITY_2021_2_OR_NEWER
 using UnityEngine.TextCore.Text;
+#endif
 
 namespace TMProDynamicDataCleaner.Editor
 {
